@@ -1,0 +1,28 @@
+
+@media (max-width:768px) {
+    .navbar__optios{
+        display: none;
+    }
+
+    .menu__mobile{
+        display: block !important;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0px auto;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .container > .sidebar{
+        min-height: auto;
+        margin: none;
+    }
+
+    .personajes{
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
